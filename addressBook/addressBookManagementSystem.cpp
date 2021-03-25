@@ -30,7 +30,7 @@ void showMenu()
 
 void addPerson(addressBooks* abs)
 {
-	//ÅÐ¶ÏÍ¨Ñ¶Â¼ÊÇ·ñÒÑÂú
+	//ï¿½Ð¶ï¿½Í¨Ñ¶Â¼ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½
 	if (abs->m_size == MAX)
 	{
 		cout << "Addressbooks is full!" << endl;
@@ -63,7 +63,7 @@ void addPerson(addressBooks* abs)
 		cout << "Please input the address: " << endl;
 		cin >> address;
 		abs->personArray[abs->m_size].m_address = address;
-		//cout << "£¡£¡£¡" << endl;
+		//cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" << endl;
 		abs->m_size += 1;
 		cout << "Successfully added!" << endl;
 		system("pause");
@@ -207,9 +207,9 @@ void searchPerson(addressBooks Abs)
 int main() 
 {
 
-	//´´½¨Í¨Ñ¶Â¼½á¹¹Ìå±äÁ¿
+	//ï¿½ï¿½ï¿½ï¿½Í¨Ñ¶Â¼ï¿½á¹¹ï¿½ï¿½ï¿½ï¿½ï¿½
 	addressBooks Abs;
-	//³õÊ¼»¯Í¨Ñ¶Â¼ÖÐµ±Ç°ÈËÔ±¸öÊý
+	//ï¿½ï¿½Ê¼ï¿½ï¿½Í¨Ñ¶Â¼ï¿½Ðµï¿½Ç°ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½
 	Abs.m_size = 0;
 
 	int select = 0;
