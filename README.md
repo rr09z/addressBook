@@ -1,2 +1,2 @@
 # addressBook
-first project by c++
+first project with c++
